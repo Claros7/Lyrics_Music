@@ -30,6 +30,7 @@ class Api_Adapter (var context: Context,  itemList: ArrayList<Result>, var click
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
+
         val itemContentMusic = mItemList[position]
 
         val title = itemContentMusic.title
